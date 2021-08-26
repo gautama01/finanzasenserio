@@ -1,0 +1,167 @@
+.grid-container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	display: flex;
+ 	flex-direction: row;
+ 	border: 2px solid black
+ 	}
+
+.grid-item { width: 100%; 
+			 }
+
+.grid-item2 {}
+
+
+.buscador { width: 100%;
+				
+			border: 2px solid black }
+
+
+.nav__responsive-ul {
+	list-style-type: none;
+	display: none;
+	margin-left: -20px;}
+
+
+.nav {
+	margin-left: -25px;
+	background: #48e;
+
+}
+
+.nav__li {
+	margin-left: -20px;
+	display: inline-block;
+	padding: 12px;
+	color:  #fff;
+	text-decoration: none;}
+
+.nav__li:hover {
+	color: #ccc;
+}
+
+.nav__li:hover  a {
+
+	color: #ccc;
+	text-decoration: none;
+}
+
+.nav__li a {
+	margin-left: -20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav__li i {
+	box-sizing: border-box;
+	text-align: right ;
+	margin-right: 20px;
+}
+
+
+
+
+
+
+.nav__responsive-button-container 
+{ position: absolute;
+ width: 100%;
+ font-size: 25px ;
+ background-color: #69c;
+ padding-right: 0px;
+margin-right: 0px;
+margin-top: -40px;
+z-index: 100;}
+
+.nav__responsive-button
+
+{ padding: 10px 10px 10px 0px;
+	margin-left: -64px;
+	text-align: right;
+	width: 100%;
+ 	
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:  500px){
+	.nav__ul { 
+		display: none;
+}
+
+.nav { height: 27px ;
+		width: 100%;
+		background-color: #69c;
+		 }							
+
+.nav__responsive-ul {
+					display:block;
+					position: absolute;
+					width:100%;
+					;
+					background-color: #9bf;
+					height:5px;
+					margin-top: 30px;
+				}
+
+.nav__li-container {position: relative;
+					top: -1000px;
+					height: calc(100vh - 40px);
+					background: #9bf;
+					transition: all 1s;
+					z-index: 0;
+					width: 75%;}				
+
+.nav__responsive-li { 
+ 			width: 100%;
+ 			padding: 20px 20px; }
+
+.nav__responsive-li i {
+	box-sizing: border-box;
+	text-align: center ;
+	margin-right: 5px;
+	width: 30px;
+	color: #018; 
+}
+
+.nav__responsive-li a { 
+
+	color: #016;
+						text-decoration: none;}
+
+.nav__responsive-ul:hover > .nav__li-container {top: 0;}
+
+
+
+
+
+.grid-container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	display: flex;
+ 	flex-direction: row;
+ 	border: 2px solid black
+ 	}
+
+.grid-item { width: 100%; 
+			 }
+
+.grid-item2 {}
+
+
+.buscador { width: 100%;
+				
+			border: 2px solid black }
+
+
+
+
+
