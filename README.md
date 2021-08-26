@@ -1,2 +1,0 @@
-# finanzasenserio
-pilot
